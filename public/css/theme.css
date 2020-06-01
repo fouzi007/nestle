@@ -1,0 +1,39 @@
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1024px !important;
+    }
+}
+body {
+    background-color: #efeeea !important
+}
+#app {
+    max-width: 1024px !important;
+    background-image: url('../img/1x/app-bg.png');
+    background-repeat: no-repeat;
+    background-color: #00527e !important;
+    
+    
+}
+.bg-form {
+    background-image: url('../img/1x/form-bg.png');
+    border-radius: 20px !important;
+}
+
+.input {
+    border: none !important;
+    border-radius: 20px !important;
+    padding: 20px !important;
+}
+
+.shad {
+    -webkit-box-shadow: 5px 5px 33px 3px rgba(0,0,0,0.45);
+    -moz-box-shadow: 5px 5px 33px 3px rgba(0,0,0,0.45);
+    box-shadow: 5px 5px 33px 3px rgba(0,0,0,0.45);
+}
+
+.listd {
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    margin-top: 10px;
+}
